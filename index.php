@@ -122,7 +122,79 @@ include 'koneksi.php';
                 <h1 class="display-4">Selamat Datang</h1>
                 <p class="lead">Company Profile PT. Teknologi Digital</p>
             </section>
-            
+            <section id="visi" class="py-5">
+                <div class="container">
+                    <div class="text-center mb-5">
+                        <h2 class="fw-bold">Visi & Misi</h2>
+                        <p class="text-muted">Arah dan tujuan kami dalam membangun masa depan digital.</p>
+                    </div>
+                    
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="card h-100 border-0 shadow-sm p-4 text-center">
+                                <div class="card-body">
+                                    <h3 class="text-primary mb-3">Visi</h3>
+                                    <p class="lead fst-italic">
+                                        "Menjadi perusahaan teknologi terdepan yang memberikan solusi digital inovatif, adaptif, dan transformatif untuk memajukan ekosistem bisnis di Indonesia maupun global."
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="card h-100 border-0 shadow-sm p-4">
+                                <div class="card-body">
+                                    <h3 class="text-primary mb-3 text-center">Misi</h3>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item border-0">
+                                            <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                            Memberikan layanan pengembangan perangkat lunak dengan standar kualitas terbaik.
+                                        </li>
+                                        <li class="list-group-item border-0">
+                                            <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                            Menciptakan inovasi teknologi yang efisien dan tepat guna bagi klien.
+                                        </li>
+                                        <li class="list-group-item border-0">
+                                            <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                            Membangun sumber daya manusia yang kompeten, kreatif, dan berintegritas.
+                                        </li>
+                                        <li class="list-group-item border-0">
+                                            <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                            Menjalin kemitraan strategis yang berkelanjutan dengan berbagai sektor industri.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="about" class="py-5 bg-light">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 mb-4 mb-md-0">
+                            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Tim Kami" class="img-fluid rounded shadow-lg">
+                        </div>
+
+                        <div class="col-md-6">
+                            <h2 class="fw-bold mb-4">Tentang Kami</h2>
+                            <h4 class="text-primary">Membangun Solusi Digital Sejak 2010</h4>
+                            <p class="lead text-muted">
+                                PT. Teknologi Digital adalah perusahaan konsultan IT dan pengembangan perangkat lunak yang berdedikasi untuk membantu transformasi digital bisnis di Indonesia.
+                            </p>
+                            <p>
+                                Bermula dari sebuah tim kecil di garasi pada tahun 2010, kami kini telah berkembang menjadi entitas korporat dengan lebih dari 100 talenta digital berbakat. Kami berfokus pada pengembangan aplikasi web, mobile, dan integrasi sistem enterprise.
+                            </p>
+                            <p>
+                                Komitmen kami adalah memberikan hasil kerja berkualitas tinggi yang tidak hanya memenuhi spesifikasi teknis, tetapi juga memberikan dampak bisnis nyata bagi klien kami.
+                            </p>
+                            <div class="mt-4">
+                                <a href="#kontak" class="btn btn-primary px-4 py-2">Hubungi Kami</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section id="event">
                 <h2>Event & Gallery</h2>
                 <div class="row">
@@ -150,7 +222,7 @@ include 'koneksi.php';
                 </div>
             </section>
 
-            <footer>
+             <footer>
                 <p>Design by <a href="https://www.linkedin.com/in/habibisiregar79/">M Habibi Siregar</a></p>
             </footer>
 

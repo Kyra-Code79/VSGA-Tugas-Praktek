@@ -11,7 +11,7 @@ if (isset($_POST['login'])) {
     
     if (mysqli_num_rows($result) === 1) {
         $row = mysqli_fetch_assoc($result);
-        // Verifikasi password (gunakan password_verify jika hash, untuk contoh ini simple compare)
+        // Verifikasi password 
         // Jika menggunakan hash: if(password_verify($password, $row['password']))
         if ($password == "admin123") { 
             $_SESSION['login'] = true;
