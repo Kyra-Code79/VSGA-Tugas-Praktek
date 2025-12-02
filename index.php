@@ -101,7 +101,7 @@ include 'koneksi.php';
                 <div class="px-3">
                     <p class="text-white-50 small">Area Anggota</p>
                     <a href="login.php" class="btn btn-primary btn-sm w-100 mb-2">Sign In</a>
-                    <a href="#" class="btn btn-outline-light btn-sm w-100">Sign Up</a>
+                    <a href="register.php" class="btn btn-outline-light btn-sm w-100">Sign Up</a>
                 </div>
             </div>
         </nav>
@@ -113,7 +113,6 @@ include 'koneksi.php';
                     <li class="nav-item"><a class="nav-link text-dark fw-bold" href="#profile">Profile</a></li>
                     <li class="nav-item"><a class="nav-link text-dark fw-bold" href="#visi">Visi Misi</a></li>
                     <li class="nav-item"><a class="nav-link text-dark fw-bold" href="#about">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link text-dark fw-bold" href="#produk">Produk Kami</a></li>
                     <li class="nav-item"><a class="nav-link text-dark fw-bold" href="#kontak">Kontak</a></li>
                 </ul>
             </div>
